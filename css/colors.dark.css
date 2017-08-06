@@ -31,7 +31,7 @@
 }
 
 .card:focus:not(.card-round) .card-focuscontent {
-    border-color: #52B54B;
+    border-color: #fff;
 }
 
 .card[data-cardtype='embyconnect'] .cardImageContainer {
