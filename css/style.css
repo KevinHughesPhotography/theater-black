@@ -15,8 +15,8 @@
 
 }
 
-.card:after {
-	.cardImageContainer{
+.card:after .cardImageContainer {
+	
     content: "";
     position: absolute;
     top: 0px;
@@ -32,13 +32,13 @@
 	overflow: hidden;
     -webkit-filter: brightness(120%) grayscale(20%) contrast(80%);
      filter: brightness(120%) grayscale(20%) contrast(80%);
-	}
+	
 }
 
 
 
-.card:focus:after {
-	.cardImageContainer{
+.card:focus:after .cardImageContainer {
+	
     width: 120%;
     background-color: rgba(255,255,255,0);
     -webkit-transition: all 0.5s ease-out;
@@ -48,7 +48,7 @@
     transition: all 0.5s ease-out;
     -webkit-filter: brightness(0) grayscale(0) contrast(0);
     filter: brightness(0) grayscale(0) contrast(0);
-	}
+	
 }
 
 
