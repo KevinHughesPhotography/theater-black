@@ -28,6 +28,7 @@
     -ms-transition: none;
     -o-transition: none;
     transition: none;
+	overflow: hidden;
     -webkit-filter: brightness(120%) grayscale(20%) contrast(80%);
      filter: brightness(120%) grayscale(20%) contrast(80%);
 }
