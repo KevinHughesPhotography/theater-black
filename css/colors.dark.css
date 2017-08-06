@@ -35,7 +35,7 @@
    
 }
 
-.card:focus:after{
+.cardBox:focus:after{
   background-color: rgba(255,255,255,0);
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
@@ -43,7 +43,7 @@
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
-.card:after{
+.cardBox:after{
   content: "";
     position: absolute;
     top: 0px;
