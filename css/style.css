@@ -15,7 +15,7 @@
 
 }
 
-.card:after cardbox.cardImageContainer {
+.card:after .cardbox.cardImageContainer {
 	
     content: "";
     position: absolute;
