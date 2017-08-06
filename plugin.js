@@ -17,7 +17,7 @@ define(['playbackManager', 'skinManager', 'pluginManager', 'browser', 'connectio
 
         var self = this;
 
-        self.name = 'Theater Black';
+        self.name = 'emby.theater-black';
         self.type = 'skin';
         self.id = 'firstskin';
 
