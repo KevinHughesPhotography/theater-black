@@ -3,6 +3,6 @@ define([], function () {
 
     return {
         id: 'firstskin',
-        name: 'Theater Black'
+        name: 'emby.theater-black'
     };
 });
