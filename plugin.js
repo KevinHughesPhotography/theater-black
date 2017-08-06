@@ -17,9 +17,9 @@ define(['playbackManager', 'skinManager', 'pluginManager', 'browser', 'connectio
 
         var self = this;
 
-        self.name = 'Default Skin';
+        self.name = 'Theater Black';
         self.type = 'skin';
-        self.id = 'defaultskin';
+        self.id = 'firstskin';
 
         var settingsObjectName = self.id + '/skinsettings';
 
