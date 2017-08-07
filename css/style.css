@@ -37,6 +37,13 @@
     to   { opacity: 1; }
 }
 
+
+html|*:not(.spotlight) {
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%); }
+
+
 .userViewNames{
 opacity: 0 !important;
 	animation: fadein 1.5s 3s forwards !important;  	
