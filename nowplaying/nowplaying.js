@@ -37,30 +37,19 @@ define(['playbackManager', 'datetime', 'backdrop', 'userdataButtons', 'cardBuild
             }
 
             
-            var keyframes = [
-                { 
-                 opacity: '0',
-                 transform: 'scale(1, 0.8)',
-                 filter: 'blur(90px)'
-                },
-                {
-                opacity: '1',
-                transform: 'scale(1, 1)',
-                filter: 'blur(0px)'
-                }];
-                var timing = { duration: 1000, iterations: 1 };
-            
-            
-            
             
             
             setTitle(item);
             backdrop.setBackdrops([item]);
 
+            var el = view.querySelector('.nowPlayingCardContainer');
+            el.style.animationDuration = "1.5s";
+            el.style.animationFillMode = "forwards";
+            el.style.animationName = "vanishIn";
             cardBuilder.buildCards([item], {
                 shape: 'square',
                 width: 640,
-                itemsContainer: view.querySelector('.nowPlayingCardContainer').animate(keyframes, timing),
+                itemsContainer: el,
                 scalable: true
                 
             });
