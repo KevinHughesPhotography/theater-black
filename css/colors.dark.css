@@ -93,9 +93,8 @@
     animation: vanishIn 3s 1.5s forwards;
 }
 
-.movieCollectionsCard:focus .cardImageContainer {
-    background-color: #000 !important;
-    animation: fadein 3s 1.5s forwards;
+.movieCollectionsCard .cardImageContainer i{
+    display: none !important;
 }
 
 .movieGenresCard .cardImageContainer {
