@@ -43,8 +43,16 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
         // Only use the fade animation if native support for WebAnimations is present
         if (browser.animate /*&& cardImageContainer.style.backgroundImage*/) {
             var keyframes = [
-                    { opacity: '0', offset: 0 },
-                    { opacity: '1', offset: 1 }];
+                { 
+                 opacity: '0',
+                 transform: 'scale(2, 2)',
+                 filter: 'blur(90px)',
+                },
+                {
+                opacity: '1',
+                transform: 'scale(1, 1)',
+                filter: 'blur(0px)'
+                }];
             var timing = { duration: 900, iterations: 1 };
             newCardImageContainer.animate(keyframes, timing).onfinish = onAnimationFinished;
         } else {
