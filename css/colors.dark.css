@@ -30,7 +30,7 @@ filter: grayscale(100%); }
 }
 
 .emby-button:focus:not(.btnUserViewHeader):not(.emby-tab-button) {
-    background: #52B54B;
+    background: #fff;
     color: #fff !important;
 }
 
@@ -60,7 +60,7 @@ filter: grayscale(100%); }
 }
 
 .card[data-cardtype='embyconnect'] .cardImageContainer {
-    background-color: #52B54B!important;
+    background-color: #fff !important;
 }
 
 .userViewNames button {
@@ -111,9 +111,9 @@ filter: grayscale(100%); }
 }
 
 .userViewNames button:focus {
-    color: #52B54B !important;
+    color: #fff !important;
 }
 
     .userViewNames button:focus .userViewButtonText {
-        border-bottom-color: #52B54B;
+        border-bottom-color: #fff;
     }
