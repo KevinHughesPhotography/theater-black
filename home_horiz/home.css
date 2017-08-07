@@ -1,3 +1,59 @@
+@keyframes vanishIn {
+  0% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(2, 2);
+    filter: blur(90px);
+  }
+
+  100% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1);
+    filter: blur(0px);
+  }
+
+}
+
+@keyframes vanishOut {
+  0% {
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: scale(1, 1);
+    filter: blur(0px);
+  }
+
+  100% {
+    opacity: 0;
+    transform-origin: 50% 50%;
+    transform: scale(2, 2);
+    filter: blur(20px);
+  }
+}
+
+@keyframes fadein {
+    from {  visibility:visible; opacity: 0;}
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 .userViewNames {
     padding-left: 3.75%;
 }
@@ -23,6 +79,8 @@
 .homePageContainer .selectedItemInfo {
     right: 2%;
     bottom: 2.5%;
+    opacity: 0 !important;
+ animation: fadein 4s 1s forwards;
 }
 
 .homePageContent .squareCard:not(.scalableCard) .cardImageContainer {
