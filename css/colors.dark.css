@@ -16,6 +16,9 @@
 
 }
 
+.btnPause{
+  background-color: rgba(0,0,0,0.2);
+}
 .btnPause:focus{
   background-color: rgba(0,0,0,0.2);
 }
