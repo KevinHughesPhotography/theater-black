@@ -35,11 +35,31 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
             ParentId: parentId,
             EnableImageTypes: "Primary,Backdrop,Thumb"
         };
+        
+        
 
         return Emby.Models.latestItems(options).then(function (result) {
 
             var section = element.querySelector('.latestSection');
 
+             var keyframes = [
+                { 
+                 opacity: '0',
+                 transform: 'scale(1, 0.8)',
+                 filter: 'blur(90px)'
+                },
+                {
+                opacity: '1',
+                transform: 'scale(1, 1)',
+                filter: 'blur(0px)'
+                }];
+            var timing = { duration: 1000, iterations: 1 };
+            section.animate(keyframes, timing).onfinish = onAnimationFinished;
+              
+            
+            
+            
+            
             cardbuilder.buildCards(result, {
                 parentContainer: section,
                 itemsContainer: section.querySelector('.itemsContainer'),
