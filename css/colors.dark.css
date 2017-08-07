@@ -87,7 +87,7 @@
 }
 
 .movieCollectionsCard .cardImageContainer {
-    background-color: #009688 !important;
+    background-color: #000 !important;
     animation: vanishIn 3s 1.5s forwards;
 }
 
