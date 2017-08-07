@@ -38,12 +38,6 @@
 }
 
 
-html|*:not(.spotlight) {
--webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
-filter: grayscale(100%); }
-
-
 .userViewNames{
 opacity: 0 !important;
 	animation: fadein 1.5s 3s forwards !important;  	
@@ -57,10 +51,10 @@ opacity: 0 !important;
 	
     content: "";
     position: absolute;
-    top: -10px;
-    left: -10px;
+    top: 0px;
+    left: 0px;
     width: 0%;
-    height: 105%;
+    height: 100%;
     background-color: rgba(255,255,255,0.4);
     -webkit-transition: none;
     -moz-transition: none;
