@@ -15,7 +15,7 @@
 
 }
 
-.card:after {
+.card:after .cardImage{
 	
     content: "";
     position: absolute;
@@ -37,7 +37,7 @@
 
 
 
-.card:focus:after {
+.card:focus:after .cardImage{
 	
     width: 120%;
     background-color: rgba(255,255,255,0);
