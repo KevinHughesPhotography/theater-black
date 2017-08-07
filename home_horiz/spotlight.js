@@ -45,7 +45,7 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
             var keyframes = [
                 { 
                  opacity: '0',
-                 transform: 'scale(0.8, 1)',
+                 transform: 'scale(1, 0.8)',
                  filter: 'blur(90px)'
                 },
                 {
