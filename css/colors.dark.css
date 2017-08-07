@@ -87,11 +87,11 @@
 }
 
 .movieCollectionsCard .cardImageContainer {
-    background-color: #FFFACD !important;
+    background-color: #808080 !important;
     animation: vanishIn 3s 1.5s forwards;
 }
 
-.movieCollectionsCard:hover .cardImageContainer {
+.movieCollectionsCard:focus .cardImageContainer {
     background-color: #000 !important;
     animation: fadein 3s 1.5s forwards;
 }
