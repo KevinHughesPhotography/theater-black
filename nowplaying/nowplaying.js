@@ -28,7 +28,11 @@ define(['playbackManager', 'datetime', 'backdrop', 'userdataButtons', 'cardBuild
             var item = state.NowPlayingItem;
 
             if (!item) {
-                view.querySelector('.nowPlayingCardContainer').innerHTML = '';
+                var el = view.querySelector('.nowPlayingCardContainer');
+                el.style.animationDuration = "3.5s";
+                el.style.animationFillMode = "forwards";
+                el.style.animationName = "vanishOut";
+                el.innerHTML = '';
                 view.querySelector('.nowPlayingMetadata').innerHTML = '&nbsp;<br/>&nbsp;<br/>&nbsp;';
                 view.querySelector('.userDataIcons').innerHTML = '';
 
@@ -43,7 +47,7 @@ define(['playbackManager', 'datetime', 'backdrop', 'userdataButtons', 'cardBuild
             backdrop.setBackdrops([item]);
 
             var el = view.querySelector('.nowPlayingCardContainer');
-            el.style.animationDuration = "1.5s";
+            el.style.animationDuration = "3.5s";
             el.style.animationFillMode = "forwards";
             el.style.animationName = "vanishIn";
             cardBuilder.buildCards([item], {
