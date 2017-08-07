@@ -64,9 +64,7 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
                 {
                      width: '120%',
                      backgroundColor: 'rgba(255,255,255,0)',
-                    transition: 'none'
-                },
-                {
+                     transition: 'none'
                 }];
             var timing = { duration: 900, iterations: 1 };
             newCardImageContainer.animate(keyframes, timing).onfinish = onAnimationFinished;
