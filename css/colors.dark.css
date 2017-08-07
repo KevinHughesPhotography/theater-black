@@ -19,7 +19,7 @@
 .btnPause{
   background-color: rgba(0,0,0,0.2);
 }
-.btnPause:active{
+.btnPause:active:after{
   background-color: rgba(255,255,255,0.5);
 }
 .btnPause:focus:after{
@@ -32,7 +32,7 @@
 .btnPlay{
   background-color: rgba(0,0,0,0.2);
 }
-.btnPlay:active{
+.btnPlay:active:after{
   background-color: rgba(255,255,255,0.5);
 }
 .btnPlay:focus:after{
