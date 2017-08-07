@@ -36,18 +36,15 @@ filter: grayscale(100%); }
 
 .card:focus:not(.card-round) .card-focuscontent {
     border-color: #fff;
-   
-}
-
-.cardBox:focus:after .cardImageContainer{
-  background-color: rgba(255,255,255,0);
+    background-color: rgba(255,255,255,0);
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -ms-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
-.cardBox:after .cardImageContainer{
+
+.card:after:not(.card-round) .card-focuscontent{
   content: "";
     position: absolute;
     top: 0px;
