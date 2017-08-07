@@ -42,6 +42,10 @@ opacity: 0 !important;
 	animation: fadein 1.5s 3s forwards !important;  	
 }
 
+.selectedItemInfo{
+opacity: 0 !important;
+	animation: fadein 1.5s 0s forwards !important;  	
+}
 .card:after{
 	
     content: "";
@@ -81,7 +85,7 @@ opacity: 0 !important;
 
 .cardBox{
   opacity: 0 !important;
-	animation: vanishIn 1.5s 0s forwards !important;  
+	animation: fadein 2.5s 0.5s forwards !important;  
 }
 
 
