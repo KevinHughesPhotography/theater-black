@@ -23,6 +23,7 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
         newCardImageContainer.style.backgroundImage = "url('" + imgUrl + "')";
 
         card.querySelector('.cardText').innerHTML = item.Name;
+        card.querySelector('.cardText').style.animation = "fadein 4s 2";
         card.setAttribute('data-id', item.Id);
         card.setAttribute('data-serverid', item.ServerId);
         card.setAttribute('data-type', item.Type);
@@ -53,7 +54,7 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
                 transform: 'scale(1, 1)',
                 filter: 'blur(0px)'
                 }];
-            var timing = { duration: 900, iterations: 1 };
+            var timing = { duration: 1000, iterations: 1 };
             newCardImageContainer.animate(keyframes, timing).onfinish = onAnimationFinished;
         } else {
             onAnimationFinished();
