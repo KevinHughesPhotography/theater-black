@@ -43,8 +43,7 @@ opacity: 0 !important;
 }
 
 .selectedItemInfo{
-opacity: 0 !important;
-	animation: fadein 1.5s 0s forwards !important;  	
+   animation: vanishIn 1.5s 0s forwards !important;  	
 }
 .card:after{
 	
