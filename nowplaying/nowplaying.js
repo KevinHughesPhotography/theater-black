@@ -22,6 +22,7 @@ define(['playbackManager', 'datetime', 'backdrop', 'userdataButtons', 'cardBuild
         var btnRepeat = view.querySelector('.btnRepeat');
 
         var currentImgUrl;
+        
         function updateNowPlayingInfo(state) {
 
             var item = state.NowPlayingItem;
@@ -35,14 +36,33 @@ define(['playbackManager', 'datetime', 'backdrop', 'userdataButtons', 'cardBuild
                 return;
             }
 
+            
+            var keyframes = [
+                { 
+                 opacity: '0',
+                 transform: 'scale(1, 0.8)',
+                 filter: 'blur(90px)'
+                },
+                {
+                opacity: '1',
+                transform: 'scale(1, 1)',
+                filter: 'blur(0px)'
+                }];
+                var timing = { duration: 1000, iterations: 1 };
+            
+            
+            
+            
+            
             setTitle(item);
             backdrop.setBackdrops([item]);
 
             cardBuilder.buildCards([item], {
                 shape: 'square',
                 width: 640,
-                itemsContainer: view.querySelector('.nowPlayingCardContainer'),
+                itemsContainer: view.querySelector('.nowPlayingCardContainer').animate(keyframes, timing),
                 scalable: true
+                
             });
 
             userdataButtons.fill({
