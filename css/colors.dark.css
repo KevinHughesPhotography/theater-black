@@ -19,12 +19,27 @@
 .btnPause{
   background-color: rgba(0,0,0,0.2);
 }
+.btnPause:active{
+  background-color: rgba(255,255,255,0.5);
+}
 .btnPause:focus:after{
   background-color: rgba(255,255,255,0.2);
 }
 .btnPause:focus i{
   color: #fff;
-  
+}
+
+.btnPlay{
+  background-color: rgba(0,0,0,0.2);
+}
+.btnPlay:active{
+  background-color: rgba(255,255,255,0.5);
+}
+.btnPlay:focus:after{
+  background-color: rgba(255,255,255,0.2);
+}
+.btnPlay:focus i{
+  color: #fff;
 }
 
 .skinHeader-withBackground {
