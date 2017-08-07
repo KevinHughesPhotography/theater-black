@@ -16,6 +16,10 @@
 
 }
 
+html|*:not(.spotlight) {
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%); }
 
 .skinHeader-withBackground {
     background-color: #191919 !important;
