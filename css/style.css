@@ -91,7 +91,7 @@ animation: vanishIn 2.5s 0.5s forwards !important;
 	animation: fadein 2.5s 0.5s forwards !important;  
 }
 
-.card .movieCollectionsCard{
+.movieCollectionsCard .cardImageContainer{
 background-color: black !important;	
 }
 
