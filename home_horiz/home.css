@@ -80,7 +80,13 @@
     right: 2%;
     bottom: 2.5%;
     opacity: 0 !important;
- animation: fadein 4s 1s forwards;
+ animation: vanishIn 4s 1s forwards;
+}
+
+.homePageContainer .selectedItemInfo:active {
+    
+    opacity: 0 !important;
+ animation: vanishIn 4s 1s forwards;
 }
 
 .homePageContent .squareCard:not(.scalableCard) .cardImageContainer {
