@@ -16,10 +16,7 @@
 
 }
 
-html|*:not(.wideSpotlightCard) {
--webkit-filter: grayscale(100%);
--moz-filter: grayscale(100%);
-filter: grayscale(100%); }
+
 
 .skinHeader-withBackground {
     background-color: #191919 !important;
@@ -31,7 +28,7 @@ filter: grayscale(100%); }
 
 .emby-button:focus:not(.btnUserViewHeader):not(.emby-tab-button) {
     background: #fff;
-    color: #fff !important;
+    color: #808080 !important;
 }
 
 .card:focus:not(.card-round) .card-focuscontent {
