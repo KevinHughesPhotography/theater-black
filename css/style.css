@@ -46,7 +46,7 @@ opacity: 0 !important;
 	opacity: 0 !important;
    animation: vanishIn 1.5s 0.5s forwards !important;  	
 }
-.card:after{
+.cardBox:after{
 	
     content: "";
     position: absolute;
@@ -68,7 +68,7 @@ opacity: 0 !important;
 
 
 
-.card:focus:after{
+.cardBox:focus:after{
 	
     width: 100%;
     background-color: rgba(255,255,255,0);
