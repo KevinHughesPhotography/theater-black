@@ -23,7 +23,8 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
         newCardImageContainer.style.backgroundImage = "url('" + imgUrl + "')";
 
         card.querySelector('.cardText').innerHTML = item.Name;
-        card.querySelector('.cardText').style.animation = "fadein 4s 2";
+        card.querySelector('.cardText').style.opacity = "0";
+        card.querySelector('.cardText').style.animation = "fadein 4s 1s forwards";
         card.setAttribute('data-id', item.Id);
         card.setAttribute('data-serverid', item.ServerId);
         card.setAttribute('data-type', item.Type);
