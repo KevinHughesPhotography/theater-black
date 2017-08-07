@@ -50,7 +50,7 @@ opacity: 0 !important;
 	
     content: "";
     position: absolute;
-    top: 1px;
+    top: 0px;
     left: 0px;
     width: 0%;
     height: 100%;
