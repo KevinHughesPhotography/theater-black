@@ -91,6 +91,9 @@ animation: vanishIn 2.5s 0.5s forwards !important;
 	animation: fadein 2.5s 0.5s forwards !important;  
 }
 
+.movieCollectionCard{
+background-color: black;	
+}
 
 a {
     text-decoration: none;
