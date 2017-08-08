@@ -279,9 +279,11 @@ a {
     margin-top: 0;
 }
 
-.scrollFrameY {
-    /*overflow: hidden;*/
+.scrollSlider{
 	height:75%;
+}
+.scrollFrameY {
+    overflow: hidden;
 }
 
 .scrollFrameX .scrollSlider {
