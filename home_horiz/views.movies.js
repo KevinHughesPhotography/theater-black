@@ -8,7 +8,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
             Limit: 6,
             ParentId: parentId,
             ImageTypeLimit: 1,
-            EnableImageTypes: "Backdrop"
+            EnableImageTypes: "Backdrop,Primary"
         };
 
         return Emby.Models.resumable(options).then(function (result) {
@@ -19,10 +19,9 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
                 parentContainer: section,
                 itemsContainer: section.querySelector('.itemsContainer'),
                 shape: "Backdrop",
-                EnableImageTypes: "Backdrop,Primary,Thumb",
                 rows: 3,
-                preferThumb: false,
-                scalable: false
+                preferThumb: true,
+                scalable: true
             });
         });
     }
