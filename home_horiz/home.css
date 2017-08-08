@@ -80,13 +80,23 @@
     padding-bottom: .2em;
 }
 
-.homePageContainer .selectedItemInfo {
-    /*right: 2%;
-    bottom: 2.5%;
-    opacity: 0 !important;
- animation: vanishIn 4s 1s forwards;*/
-  display:none !important;
-}
+ .homePageContainer .selectedItemInfo {
+ .homePageContainer .selectedItemInfo {
+-    right: 2%;
++    /*right: 2%;
+     bottom: 2.5%;
+     bottom: 2.5%;
+     opacity: 0 !important;
+     opacity: 0 !important;
+- animation: vanishIn 4s 1s forwards;
++ animation: vanishIn 4s 1s forwards;*/
+-}
+-
+-.homePageContainer .selectedItemInfo {
+-    
+-    opacity: 0 !important;
+- animation: fadein 4s 1s forwards;
+ }
 
 .homePageContent .squareCard:not(.scalableCard) .cardImageContainer {
     width: 8.66em;
