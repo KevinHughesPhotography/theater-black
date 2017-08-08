@@ -102,7 +102,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
 
         var cardsHtml = cardbuilder.getCardsHtml(recommendation.Items, {
             shape: 'portrait',
-            rows: 2,
+            rows: 1,
             scalable: false
         });
 
