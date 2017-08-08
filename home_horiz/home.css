@@ -84,6 +84,7 @@
     bottom: 2.5%;
     opacity: 0 !important;
  animation: vanishIn 4s 1s forwards;*/
+  display: none !important;
 }
 
 .homePageContent .squareCard:not(.scalableCard) .cardImageContainer {
