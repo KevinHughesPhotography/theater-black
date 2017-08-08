@@ -32,7 +32,8 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
             IncludeItemTypes: "Movie",
             Limit: 12,
             ParentId: parentId,
-            EnableImageTypes: "Primary"
+            EnableImageTypes: "Primary",
+            rows: 1,
         };
         
         
