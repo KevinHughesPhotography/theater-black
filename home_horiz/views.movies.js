@@ -8,7 +8,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
             Limit: 6,
             ParentId: parentId,
             ImageTypeLimit: 1,
-            EnableImageTypes: "Backdrop,Primary"
+            EnableImageTypes: "Backdrop"
         };
 
         return Emby.Models.resumable(options).then(function (result) {
@@ -18,14 +18,13 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
             cardbuilder.buildCards(result.Items, {
                 parentContainer: section,
                 itemsContainer: section.querySelector('.itemsContainer'),
-                shape: "Backdrop",
+                shape: 'backdrop',
                 rows: 3,
                 preferThumb: true,
-                scalable: true
+                scalable: false
             });
         });
-    }
-
+}
     function loadLatest(element, parentId) {
 
         var options = {
