@@ -18,12 +18,12 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
             cardbuilder.buildCards(result.Items, {
                 parentContainer: section,
                 itemsContainer: section.querySelector('.itemsContainer'),
-                shape: 'thumbImage',
+                shape: 'backdrop',
                 ImageTypes: "Backdrop",
                 EnableImageTypes: "Backdrop",
-                rows: 2,
-                preferThumb: true,
-                scalable: false
+                rows: 3,
+                preferThumb: false,
+                scalable: true
             });
         });
     }
