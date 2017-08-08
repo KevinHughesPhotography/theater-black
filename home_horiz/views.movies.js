@@ -79,7 +79,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
         return apiClient.getMovieRecommendations({
 
             categoryLimit: 4,
-            ItemLimit: 8,
+            ItemLimit: 10,
             UserId: apiClient.getCurrentUserId(),
             ImageTypeLimit: 1,
             Fields: "PrimaryImageAspectRatio"
