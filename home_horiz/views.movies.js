@@ -8,7 +8,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
             Limit: 6,
             ParentId: parentId,
             ImageTypeLimit: 1,
-            EnableImageTypes: "Primary,Backdrop,Thumb"
+            EnableImageTypes: "Primary"
         };
 
         return Emby.Models.resumable(options).then(function (result) {
@@ -18,7 +18,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
             cardbuilder.buildCards(result.Items, {
                 parentContainer: section,
                 itemsContainer: section.querySelector('.itemsContainer'),
-                shape: 'backdrop',
+                shape: 'portrait',
                 rows: 3,
                 preferThumb: true,
                 scalable: false
@@ -33,7 +33,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
             IncludeItemTypes: "Movie",
             Limit: 12,
             ParentId: parentId,
-            EnableImageTypes: "Primary,Backdrop,Thumb"
+            EnableImageTypes: "Primary"
         };
         
         
@@ -42,21 +42,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
 
             var section = element.querySelector('.latestSection');
 
-             var keyframes = [
-                { 
-                 opacity: '0',
-                 transform: 'scale(1, 0.8)',
-                 filter: 'blur(90px)'
-                },
-                {
-                opacity: '1',
-                transform: 'scale(1, 1)',
-                filter: 'blur(0px)'
-                }];
-            var timing = { duration: 1000, iterations: 1 };
-            section.animate(keyframes, timing).onfinish = onAnimationFinished;
-              
-            
+                
             
             
             
