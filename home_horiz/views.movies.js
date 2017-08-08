@@ -8,7 +8,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
             Limit: 6,
             ParentId: parentId,
             ImageTypeLimit: 1,
-            EnableImageTypes: "Primary"
+            EnableImageTypes: "Backdrop"
         };
 
         return Emby.Models.resumable(options).then(function (result) {
@@ -19,7 +19,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
                 parentContainer: section,
                 itemsContainer: section.querySelector('.itemsContainer'),
                 shape: 'Backdrop',
-                EnableImageTypes: "Primary,Backdrop,Thumb",
+                EnableImageTypes: "Backdrop",
                 rows: 3,
                 preferThumb: false,
                 scalable: false
