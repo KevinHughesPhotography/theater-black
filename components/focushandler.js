@@ -194,7 +194,7 @@ define(['imageLoader', 'itemHelper', 'backdrop', 'mediaInfo', 'focusManager', 's
                 selectedItemInfoElement.style.left = (Math.max(left, 70)) + 'px';
 
                 if (html && selectedItemInfoElement.animate) {
-                    fadeIn(selectedItemInfoElement, 1);
+                    vanishIn(selectedItemInfoElement, 1);
                 }
             }
 
