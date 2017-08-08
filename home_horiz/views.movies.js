@@ -32,8 +32,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
             IncludeItemTypes: "Movie",
             Limit: 12,
             ParentId: parentId,
-            EnableImageTypes: "Primary",
-            rows: 1,
+            EnableImageTypes: "Primary"
         };
         
         
@@ -47,7 +46,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
                 parentContainer: section,
                 itemsContainer: section.querySelector('.itemsContainer'),
                 shape: 'portrait',
-                rows: 2,
+                rows: 1,
                 scalable: false
             });
         });
