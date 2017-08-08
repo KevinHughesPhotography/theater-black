@@ -19,7 +19,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
                 parentContainer: section,
                 itemsContainer: section.querySelector('.itemsContainer'),
                 shape: "Backdrop",
-                EnableImageTypes: "Backdrop",
+                EnableImageTypes: "Backdrop,Primary,Thumb",
                 rows: 3,
                 preferThumb: false,
                 scalable: false
