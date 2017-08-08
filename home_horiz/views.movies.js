@@ -18,7 +18,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
             cardbuilder.buildCards(result.Items, {
                 parentContainer: section,
                 itemsContainer: section.querySelector('.itemsContainer'),
-                shape: 'backdrop',
+                shape: 'Backdrop',
                 ImageTypes: "Backdrop",
                 rows: 3,
                 preferThumb: false,
