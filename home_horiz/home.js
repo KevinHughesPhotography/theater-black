@@ -30,7 +30,7 @@ define(['globalize', 'pluginManager', 'connectionManager', 'loading', './../comp
         for (var i = 0, length = cards.length; i < length; i++) {
 
             cards[i].classList.add('card-focusscale');
-            //cards[i].querySelector('.cardBox').classList.add('cardBox-focustransform');
+            cards[i].querySelector('.cardBox').classList.add('cardBox-focustransform');
         }
     }
 
