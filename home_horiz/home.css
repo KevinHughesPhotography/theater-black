@@ -80,16 +80,15 @@
     padding-bottom: .2em;
 }
 
- .homePageContainer .selectedItemInfo {
+
  .homePageContainer .selectedItemInfo {
 -    right: 2%;
-+    /*right: 2%;
++   
      bottom: 2.5%;
-     bottom: 2.5%;
-     opacity: 0 !important;
+    
      opacity: 0 !important;
 - animation: vanishIn 4s 1s forwards;
-+ animation: vanishIn 4s 1s forwards;*/
+
 -}
 -
 -.homePageContainer .selectedItemInfo {
