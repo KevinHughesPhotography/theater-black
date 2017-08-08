@@ -110,7 +110,7 @@
 
     .wideSpotlightCard .cardImageContainer {
         height: 17.85em;
-      
+      width: 51em;
     }
 
     .wideSpotlightCard.card-focusscale:focus > .cardBox {
