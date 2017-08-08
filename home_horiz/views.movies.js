@@ -19,7 +19,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
                 parentContainer: section,
                 itemsContainer: section.querySelector('.itemsContainer'),
                 shape: 'backdrop',
-                rows: 3,
+                rows: 1,
                 preferThumb: true,
                 scalable: false
             });
