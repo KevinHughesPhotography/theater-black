@@ -96,10 +96,10 @@ opacity: 0 !important;
 	
 }
 
-.backgroundContainer{
+.backgroundContainer:before{
 	background: #fff;
 }
-.backgroundContainer:before{
+.backgroundContainer{
 width: 100%;
   height: 100%;
   background: -moz-linear-gradient(-45deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.02) 42%, rgba(0,0,0,0) 43%); /* FF3.6-15 */
