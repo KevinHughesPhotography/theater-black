@@ -54,10 +54,7 @@ animation-duration: 2s;
 
 }
 
-.scrollLine{
-	width: 2px;
-	background-color:white;
-}
+
 .userViewNames{
 opacity: 0 !important;
 	animation: fadein 1.5s 2s forwards !important;  	
