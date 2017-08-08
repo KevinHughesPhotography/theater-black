@@ -86,11 +86,28 @@ define(['loading', 'scroller', './focushandler', 'focusManager', 'scrollHelper',
         // Only enable the fade if native WebAnimations are supported
         if (promise && browser.animate) {
             promise.then(function () {
-                fadeInRight(contentScrollSlider);
+                blurIn(contentScrollSlider);
             });
         }
     }
 
+    function blurIn(elem){
+     var keyframes = [
+                { 
+                 opacity: '0',
+                 transform: 'scale(1, 0.8)',
+                 filter: 'blur(90px)'
+                },
+                {
+                opacity: '1',
+                transform: 'scale(1, 1)',
+                filter: 'blur(0px)'
+                }];
+           var timing = { duration: 1000, iterations: 1 };
+           elem.animate(keyframes, timing);
+    }
+    
+    
     function fadeInRight(elem) {
 
         var keyframes = [
