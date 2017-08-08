@@ -41,7 +41,18 @@ animation-duration: 2s;
     to   { opacity: 1; }
 }
 
+.cardBox-focustransform{
+	0% {
+    transform-origin: 50% 50%;
+    transform: scale(1.2, 1.2);
+  }
 
+  100% {
+    transform-origin: 50% 50%;
+    transform: scale(1, 1);
+  }
+
+}
 .userViewNames{
 opacity: 0 !important;
 	animation: fadein 1.5s 3s forwards !important;  	
