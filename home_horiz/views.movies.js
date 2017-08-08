@@ -19,10 +19,10 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
                 parentContainer: section,
                 itemsContainer: section.querySelector('.itemsContainer'),
                 shape: 'Backdrop',
-                ImageTypes: "Backdrop",
+                EnableImageTypes: "Primary,Backdrop,Thumb",
                 rows: 3,
                 preferThumb: false,
-                scalable: true
+                scalable: false
             });
         });
     }
