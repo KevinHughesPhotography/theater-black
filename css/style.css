@@ -280,7 +280,7 @@ a {
 }
 
 .scrollFrameY {
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .scrollFrameX .scrollSlider {
