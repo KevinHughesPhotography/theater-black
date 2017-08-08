@@ -59,6 +59,8 @@
 }
 .userViewNames {
     padding-left: 3.75%;
+  position:absolute !important;
+  top:1.2%
 }
 
 .userViewButtonText {
