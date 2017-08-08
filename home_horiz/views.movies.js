@@ -5,7 +5,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
 
         var options = {
 
-            Limit: 10,
+            Limit: 8,
             ParentId: parentId,
             ImageTypeLimit: 1,
             EnableImageTypes: "Backdrop"
