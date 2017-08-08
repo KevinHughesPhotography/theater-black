@@ -19,7 +19,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
                 parentContainer: section,
                 itemsContainer: section.querySelector('.itemsContainer'),
                 shape: 'portrait',
-                rows: 3,
+                rows: 2,
                 preferThumb: true,
                 scalable: false
             });
@@ -40,11 +40,8 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
 
         return Emby.Models.latestItems(options).then(function (result) {
 
-            var section = element.querySelector('.latestSection');
-
-                
-            
-            
+            var section = element.querySelector('.latestSection');        
+                       
             
             cardbuilder.buildCards(result, {
                 parentContainer: section,
