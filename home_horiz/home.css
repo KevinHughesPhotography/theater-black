@@ -55,7 +55,7 @@
 }
 
 .resumeSection{
- positions:fixed; 
+ positions:absolute; 
 }
 .userViewNames {
     padding-left: 3.75%;
