@@ -113,7 +113,7 @@
     }
 
     .wideSpotlightCard.card-focusscale:focus > .cardBox {
-        transform: scale(1.04, 1.04);
+        transform: scale(1.02, 1.0);
     }
 
 .homePageContainer .cardBox {
