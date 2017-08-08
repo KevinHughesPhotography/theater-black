@@ -55,7 +55,8 @@
 }
 
 .resumeSection{
- position:absolute; 
+ position:absolute;
+ height: 100%;
 }
 .userViewNames {
     padding-left: 3.75%;
@@ -84,7 +85,7 @@
     bottom: 2.5%;
     opacity: 0 !important;
  animation: vanishIn 4s 1s forwards;*/
-  opacity:0% !important;
+  display:none !important;
 }
 
 .homePageContent .squareCard:not(.scalableCard) .cardImageContainer {
