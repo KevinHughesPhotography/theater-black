@@ -85,6 +85,10 @@ opacity: 0 !important;
 	
 }
 
+.backgroundContainer{
+background-image: url(images/background.jpg);	
+}
+
 .cardText{
 animation: vanishIn 2.5s 0.5s forwards !important; 	
 }
