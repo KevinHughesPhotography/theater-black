@@ -56,7 +56,7 @@
 
 .resumeSection{
  position:absolute;
-  bottom:1.2%;
+  bottom:-330px;
   z-index: -1;
  }
 
