@@ -109,13 +109,18 @@ display:none !important;
     height: 19.85em;
 }
 
+.homePageContent .recommendation .portraitCard .cardImageContainer{
+  width: 8em;
+  height:14em;
+}
+
 .wideSpotlightCard {
     width: 100%;
 }
 
     .wideSpotlightCard .cardImageContainer {
         height: 19.85em;
-      width: 47.5em;
+      width: 46.5em;
     }
 
     .wideSpotlightCard.card-focusscale:focus > .cardBox {
