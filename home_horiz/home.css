@@ -55,7 +55,7 @@
 }
 
 .resumeSection{
- position:absolute;
+ position:static;
   height:20%;
   z-index: 2;
 }
