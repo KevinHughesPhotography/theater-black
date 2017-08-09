@@ -8,7 +8,7 @@ define(['./spotlight', 'focusManager', 'pluginManager', 'cardBuilder', './../ski
             Limit: 6,
             ParentId: parentId,
             ImageTypeLimit: 1,
-            EnableImageTypes: "Backdrop"
+            EnableImageTypes: "backdrop"
         };
 
         return Emby.Models.resumable(options).then(function (result) {
