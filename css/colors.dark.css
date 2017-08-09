@@ -17,7 +17,7 @@
 }
 .scrollLine{
 	height: 3px;
-	border-top: 2px solid white;
+	border-top: 1px solid white;
 	
 	top:3.4%;
 	z-index:2;
@@ -96,7 +96,7 @@
 }
 
 .userViewButtonText {
-	padding-bottom: 12px;
+	padding-bottom: 14px;
     border-bottom: 2px solid transparent;
 }
 
