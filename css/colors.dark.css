@@ -17,7 +17,7 @@
 }
 .scrollLine{
 	height: 3px;
-	border-top: 1px solid white;
+	border-top: 1px solid rgba(255,255,255,0.7);
 	
 	top:3.4%;
 	z-index:2;
