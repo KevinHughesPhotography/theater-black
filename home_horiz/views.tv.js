@@ -8,7 +8,7 @@ define(['./spotlight', 'focusManager', 'pluginManager', 'cardBuilder', './../ski
             Limit: 6,
             ParentId: parentId,
             ImageTypeLimit: 1,
-            EnableImageTypes: "Primary,Backdrop,Thumb"
+            EnableImageTypes: "Backdrop"
         };
 
         return Emby.Models.resumable(options).then(function (result) {
@@ -75,7 +75,7 @@ define(['./spotlight', 'focusManager', 'pluginManager', 'cardBuilder', './../ski
             Fields: "PrimaryImageAspectRatio",
             ParentId: parentId,
             ImageTypeLimit: 1,
-            EnableImageTypes: "Primary,Backdrop,Thumb"
+            EnableImageTypes: "Backdrop"
         };
 
         return Emby.Models.latestItems(options).then(function (result) {
