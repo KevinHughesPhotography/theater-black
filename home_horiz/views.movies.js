@@ -30,7 +30,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
         var options = {
 
             IncludeItemTypes: "Movie",
-            Limit: 10,
+            Limit: 6,
             ParentId: parentId,
             EnableImageTypes: "Primary"
         };
