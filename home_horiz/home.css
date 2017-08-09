@@ -109,7 +109,7 @@ display:none !important;
     height: 19.85em;
 }
 
-.homePageContent .recommendation .portraitCard .cardImageContainer{
+.recommendations .portraitCard .cardImageContainer{
   width: 4em;
   height:10em;
 }
