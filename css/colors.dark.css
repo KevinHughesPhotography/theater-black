@@ -20,6 +20,7 @@
 	border-top: 1px solid white;
 	position:absolute;
 	top:3.4%;
+	z-index:2;
 }
 .btnPause{
   background-color: rgba(0,0,0,0.2);
