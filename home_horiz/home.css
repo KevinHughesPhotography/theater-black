@@ -66,13 +66,13 @@
 }
 
 .userViewButtonText {
-    font-weight: normal;
+    font-weight: light;
 }
 
 .userViewNames h3 {
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: 300;
+    font-weight: 320;
 }
 
 .userViewNames .btnUserViewHeader {
@@ -80,7 +80,7 @@
     text-transform: none !important;
     margin-top: 0;
     padding-top: 0;
-    padding-bottom: .2em;
+    padding-bottom: .5em;
 }
 
 
