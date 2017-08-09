@@ -56,11 +56,10 @@
 
 .resumeSection{
  position:absolute;
+  bottom:1.2%;
   z-index: -1;
  }
-.scrollSlider{
-  width: 80% !important;
-}
+
 .userViewNames {
     padding-left: 3.75%;
   position:absolute !important;
