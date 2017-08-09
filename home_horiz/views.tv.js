@@ -86,7 +86,7 @@ define(['./spotlight', 'focusManager', 'pluginManager', 'cardBuilder', './../ski
                 parentContainer: section,
                 itemsContainer: section.querySelector('.itemsContainer'),
                 shape: 'backdrop',
-                rows: 3,
+                rows: 2,
                 preferThumb: true,
                 showGroupCount: true,
                 scalable: false
