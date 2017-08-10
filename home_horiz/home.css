@@ -123,6 +123,9 @@ display:none !important;
 .wideSpotlightCard {
     width: 100%;
 }
+.wideSpotlightCard:before{
+  //try gradient here
+}
 
     .wideSpotlightCard .cardImageContainer {
         height: 21.85em;
