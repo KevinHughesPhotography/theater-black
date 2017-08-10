@@ -61,9 +61,6 @@
     color: #808080 !important;
 }
  
-.latestSection .cardColumn {
-    width: 25% !important;
-}
 
 
 .card:focus>.cardBox-focustransform {
