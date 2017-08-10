@@ -132,13 +132,14 @@ define(['loading', 'scroller', './focushandler', 'focusManager', 'scrollHelper',
         var tagName = 'button';
 
         self.renderTabs = function (tabs) {
-
-            page.querySelector('.userViewNames').innerHTML = tabs.map(function (i) {
+            var html;
+            
+             html += tabs.map(function (i) {
 
                 return '<' + tagName + ' is="emby-button" class="flat btnUserViewHeader button-flat" data-id="' + i.Id + '" data-type="' + (i.CollectionType || '') + '"><span class="userViewButtonText">' + i.Name + '</span></' + tagName + '>';
 
             }).join('');
-
+page.querySelector('.userViewNames').innerHTML = html;
             createHeaderScroller(page, self);
             createHorizontalScroller(page);
             initEvents(page, self);
