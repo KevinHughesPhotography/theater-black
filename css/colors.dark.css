@@ -105,12 +105,12 @@
 
 .userViewButtonText {
 	padding-bottom: 14px;
-        border-bottom: 2.5px solid transparent;
+        border-bottom: 2px solid transparent;
 }
 
 .userViewNames{
 	padding-left: 3.75%;
-	padding-top:1.5%;
+	padding-top:5.5%;
 	position:absolute !important;
 	top:3.1%;
 	opacity: 0 !important;
@@ -164,5 +164,5 @@
 }
 
     .userViewNames button:focus .userViewButtonText {
-        border-bottom-color: #fff;
+        border-bottom-color: white;
     }
