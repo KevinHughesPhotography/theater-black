@@ -120,8 +120,8 @@ define(['loading', 'scroller', './focushandler', 'focusManager', 'scrollHelper',
     function tabbedPage(page, pageOptions) {
 
         
-        var splash = page.querySelector('.Splash1');
-         splash.classList.add('showSplash');
+        var splash = page.querySelector('.Splash');
+         splash.classList.add('showSplash1');
         
         
         var self = this;
