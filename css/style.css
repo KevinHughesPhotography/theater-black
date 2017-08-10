@@ -46,7 +46,7 @@ animation-duration: 2s;
 .cardBox-focustransform{
 	0% {
     transform-origin: 50% 50%;
-    transform: scale(1, 1);
+    transform: scale(1.02, 1.02);
   }
 
   100% {
