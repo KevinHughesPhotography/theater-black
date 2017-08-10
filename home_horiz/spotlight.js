@@ -21,10 +21,9 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
         newCardImageContainer.className = cardImageContainer.className;
 
         newCardImageContainer.style.backgroundImage = "url('" + imgUrl + "')";
+                   
+        newCardImageContainer.addClass('.wideSpotlightCard:before');
         
-        if(!newCardImageContainer.hasClass('.wideSpotlightCard:before')){
-            newCardImageContainer.style.classList.add('.wideSpotlightCard:before');
-        }
        
                
         
@@ -80,6 +79,15 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
         }
     }
 
+    function addClass(name, element) {
+  var classesString;
+  classesString = element.className || "";
+  if (classesString.indexOf(name) === -1) {
+    element.className += " " + name;
+  }
+}
+    
+    
     function spotlight(card, items, width) {
 
         var self = this;
