@@ -21,7 +21,7 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
         newCardImageContainer.className = cardImageContainer.className;
 
         newCardImageContainer.style.backgroundImage = "url('" + imgUrl + "')";
-        
+        newCardImageContainer.style.classList.add('.wideSpotlightCard:before');
                
         
         //document.styleSheets[0].addRule(
