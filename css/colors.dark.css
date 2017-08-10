@@ -157,10 +157,13 @@
     background-color: #009688 !important;
 }
 
+.userViewNames button{
+padding-bottom:2%;
+}
 .userViewNames button:focus {
     color: #fff !important;
 }
 
-    .userViewNames button:focus .userViewButtonText {
+.userViewNames button:focus .userViewButtonText {
         border-bottom-color: white;
-    }
+}
