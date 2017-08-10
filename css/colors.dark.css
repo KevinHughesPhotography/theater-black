@@ -62,18 +62,19 @@
 }
  
 .card:focus>.cardBox-focustransform {
-    -webkit-transform: scale(1.08,1.08) !important;
-    transform: scale(1.08,1.08) !important;
-}
-.card:focus:not(.card-round) .card-focuscontent {
-    border-color: rgba(0,0,0,0);
-    background-color: rgba(255,255,255,0);
+    -webkit-transform: scale(1.05,1.05) !important;
+    transform: scale(1.05,1.05) !important;
+	 background-color: rgba(255,255,255,0);
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -ms-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
   transformations-property: none !important;
+}
+.card:focus:not(.card-round) .card-focuscontent {
+    border-color: rgba(0,0,0,0);
+   
 	
 }
 
