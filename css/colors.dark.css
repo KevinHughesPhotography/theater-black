@@ -115,7 +115,6 @@
 	opacity: 0 !important;
 	animation: fadein 1.5s 2s forwards !important; 
 	z-index:2 !important;
-	border-bottom: 5px solid white !important;
 }
 
 .userViewNames button.selected {
