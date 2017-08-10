@@ -23,7 +23,7 @@ define(['globalize', 'pluginManager', 'connectionManager', 'loading', './../comp
             self.tabView = tabView;
         });
         
-                    
+         splash.classList.add('showSplash');            
          
     }
 
