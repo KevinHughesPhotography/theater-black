@@ -125,7 +125,7 @@ display:none !important;
 }
 .wideSpotlightCard:before{
    content: '';
-	margin: 0 auto;
+	
 	position: absolute;
 	top: 0;
 	right: 0;
