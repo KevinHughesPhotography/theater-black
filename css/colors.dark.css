@@ -53,7 +53,7 @@
 }
 
 .headerLogo {
-    background-image: url(images/logowhite.png);
+    /*background-image: url(images/logowhite.png);*/
 }
 
 .emby-button:focus:not(.btnUserViewHeader):not(.emby-tab-button) {
