@@ -107,7 +107,8 @@ animation-duration: 2s;
 
 
 .cardText{
-animation: vanishIn 2.5s 0.5s forwards !important; 	
+animation: vanishIn 2.5s 0.5s forwards !important; 
+	background: rgba(0,0,0,0);
 }
 
 .cardBox{
