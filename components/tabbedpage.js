@@ -33,6 +33,8 @@ define(['loading', 'scroller', './focushandler', 'focusManager', 'scrollHelper',
             }
 
         }, 0);
+        
+        //Try to put splash in here!!
     }
 
     function parentWithClass(elem, className) {
