@@ -62,8 +62,8 @@
 }
  
 .card:focus>.cardBox-focustransform {
-    -webkit-transform: scale(1.02,1.02) !important;
-    transform: scale(1.02,1.02) !important;
+    -webkit-transform: scale(1.08,1.08) !important;
+    transform: scale(1.08,1.08) !important;
 }
 .card:focus:not(.card-round) .card-focuscontent {
     border-color: rgba(0,0,0,0);
