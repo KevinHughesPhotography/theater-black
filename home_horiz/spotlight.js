@@ -20,7 +20,7 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
         var newCardImageContainer = document.createElement('div');
         newCardImageContainer.className = cardImageContainer.className;
 
-        newCardImageContainer.style.backgroundImage = "url('" + imgUrl + "')";
+        newCardImageContainer.style.background = "url('" + imgUrl + "')";
                    
         newCardImageContainer.addClass('.wideSpotlightCard:before');
         
