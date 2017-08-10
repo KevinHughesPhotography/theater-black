@@ -24,7 +24,7 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
         
         var spotlightGradient = document.createElement("style");
         spotlightGradient.innerHTML =
-        ".wideSpotlight:before {
+        ".wideSpotlightCard:before {
          content: '';
          z-index: 3;
          background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 28%, rgba(0,0,0,0) 39%, rgba(0,0,0,0.43) 91%, rgba(0,0,0,0.43) 100%); 
