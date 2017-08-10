@@ -144,7 +144,7 @@ wideSpotlightCard:before{
       width: 46.5em;
     }
 
-.wideSpotlightCard .cardText{
+.wideSpotlightCard.innerCardFooter>.cardText {
 background: rgba(0,0,0,0) !important;	
 }
 
