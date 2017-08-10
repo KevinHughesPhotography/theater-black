@@ -61,7 +61,7 @@
     color: #808080 !important;
 }
  
-.card-focusscale:focus{
+.portraitCard .card-focusscale:focus{
 transitions: scale(1.02,1.02);	
 }
 .card:focus:not(.card-round) .card-focuscontent {
