@@ -111,11 +111,11 @@
 	padding-left: 3.75%;
 	padding-top:0%;
 	position:absolute !important;
-	top:2.9%;
+	top:3.1%;
 	opacity: 0 !important;
 	animation: fadein 1.5s 2s forwards !important; 
 	z-index:2 !important;
-	border-bottom-color: 5px solid white !important;
+	border-bottom: 5px solid white !important;
 }
 
 .userViewNames button.selected {
