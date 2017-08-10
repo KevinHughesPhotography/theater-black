@@ -132,7 +132,7 @@ define(['loading', 'scroller', './focushandler', 'focusManager', 'scrollHelper',
         var tagName = 'button';
 
         self.renderTabs = function (tabs) {
-            var html;
+            var html = "";
             
              html += tabs.map(function (i) {
 
