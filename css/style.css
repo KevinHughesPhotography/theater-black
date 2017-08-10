@@ -46,7 +46,7 @@ animation-duration: 2s;
 .cardBox-focustransform{
 	0% {
     transform-origin: 50% 50%;
-    transform: scale(1.2, 1.2);
+    transform: scale(1, 1);
   }
 
   100% {
@@ -57,6 +57,10 @@ animation-duration: 2s;
 }
 
 .horizontalSection .resumeSection .sectionTitle{
+    color: #666;
+}
+
+.horizontalSection .latestSection .sectionTitle{
     color: #666;
 }
 
