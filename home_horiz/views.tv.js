@@ -5,7 +5,7 @@ define(['./spotlight', 'focusManager', 'pluginManager', 'cardBuilder', './../ski
 
         var options = {
 
-            Limit: 6,
+            Limit: 8,
             ParentId: parentId,
             ImageTypeLimit: 1,
             EnableImageTypes: "Primary,Backdrop,Thumb"
@@ -45,7 +45,7 @@ define(['./spotlight', 'focusManager', 'pluginManager', 'cardBuilder', './../ski
 
             Fields: "PrimaryImageAspectRatio",
             ImageTypeLimit: 1,
-            Limit: 18,
+            Limit: 8,
             ParentId: parentId,
             UserId: apiClient.getCurrentUserId(),
             EnableTotalRecordCount: false
@@ -71,7 +71,7 @@ define(['./spotlight', 'focusManager', 'pluginManager', 'cardBuilder', './../ski
         var options = {
 
             IncludeItemTypes: "Episode",
-            Limit: 12,
+            Limit: 8,
             Fields: "PrimaryImageAspectRatio",
             ParentId: parentId,
             ImageTypeLimit: 1,
@@ -132,7 +132,7 @@ define(['./spotlight', 'focusManager', 'pluginManager', 'cardBuilder', './../ski
 
             var items = result.Items;
             var imgOptions = {
-                maxWidth: 600
+                maxWidth: 1600
             };
 
             if (items.length > 0) {
