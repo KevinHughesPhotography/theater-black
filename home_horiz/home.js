@@ -3,6 +3,10 @@ define(['globalize', 'pluginManager', 'connectionManager', 'loading', './../comp
 
     function loadViewHtml(page, parentId, html, viewName, autoFocus, self) {
 
+        
+        var splash = page.querySelector('.Splash');
+        splash.classList.add('showSplash');
+        
         var homeScrollContent = page.querySelector('.contentScrollSlider');
 
         html = html;
