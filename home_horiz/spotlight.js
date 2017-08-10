@@ -21,10 +21,19 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
         newCardImageContainer.className = cardImageContainer.className;
 
         newCardImageContainer.style.backgroundImage = "url('" + imgUrl + "')";
+        //newCardImageContainer.style.
 
+         //background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 28%, rgba(0,0,0,0) 39%, rgba(0,0,0,0.43) 91%, rgba(0,0,0,0.43) 100%); /* FF3.6-15 */
+         //background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 39%,rgba(0,0,0,0.43) 91%,rgba(0,0,0,0.43) 100%); /* Chrome10-25,Safari5.1-6 */
+         //background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 39%,rgba(0,0,0,0.43) 91%,rgba(0,0,0,0.43) 100%); 
+        
+        
+        
+        
         card.querySelector('.cardText').innerHTML = item.Name;
         card.querySelector('.cardText').style.opacity = "0 !important";
         card.querySelector('.cardText').style.animationName = "fadein";
+        
         card.setAttribute('data-id', item.Id);
         card.setAttribute('data-serverid', item.ServerId);
         card.setAttribute('data-type', item.Type);
