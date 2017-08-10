@@ -24,7 +24,7 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
         
         document.styleSheets[0].insertRule(
             '.wideSpotlight:before',
-            'background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 28%, rgba(0,0,0,0) 39%, rgba(0,0,0,0.43) 91%, rgba(0,0,0,0.43) 100%); background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 39%,rgba(0,0,0,0.43) 91%,rgba(0,0,0,0.43) 100%); background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 39%,rgba(0,0,0,0.43) 91%,rgba(0,0,0,0.43) 100%);');
+            'background-image: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 28%, rgba(0,0,0,0) 39%, rgba(0,0,0,0.43) 91%, rgba(0,0,0,0.43) 100%); background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 39%,rgba(0,0,0,0.43) 91%,rgba(0,0,0,0.43) 100%); background-image: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 39%,rgba(0,0,0,0.43) 91%,rgba(0,0,0,0.43) 100%);');
         //newCardImageContainer.style.
 
          //background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 28%, rgba(0,0,0,0) 39%, rgba(0,0,0,0.43) 91%, rgba(0,0,0,0.43) 100%); /* FF3.6-15 */
