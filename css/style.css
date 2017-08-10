@@ -64,11 +64,7 @@ animation-duration: 2s;
     color: #666;
 }
 
-.userViewNames{
-opacity: 0 !important;
-	animation: fadein 1.5s 2s forwards !important; 
-	z-index:2 !important;
-}
+
 
 .selectedItemInfoInner{
 	opacity: 0 !important;
