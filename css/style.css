@@ -56,6 +56,9 @@ animation-duration: 2s;
 
 }
 
+.horizontalSection .sectionTitle .resumeSection{
+    color: #808080;
+}
 
 .userViewNames{
 opacity: 0 !important;
