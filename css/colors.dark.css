@@ -107,9 +107,14 @@
 	padding-bottom: 14px;
         border-bottom: 2.5px solid transparent;
 }
+
 .userViewNames{
+	opacity: 0 !important;
+	animation: fadein 1.5s 2s forwards !important; 
+	z-index:2 !important;
 	border-bottom-color: 5px solid #fff;
 }
+
 .userViewNames button.selected {
     color: inherit;
   
