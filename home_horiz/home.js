@@ -22,8 +22,7 @@ define(['globalize', 'pluginManager', 'connectionManager', 'loading', './../comp
             self.tabView = tabView;
         });
         
-         var splash = page.querySelector('.Splash');
-        splash.classList.add('showSplash');
+         
     }
 
     function loadFocusScaleCards(elem) {
@@ -238,6 +237,8 @@ define(['globalize', 'pluginManager', 'connectionManager', 'loading', './../comp
 
                     loadViewHtml(page, id, html, viewName, autoFocusTabContent, self);
                     autoFocusTabContent = false;
+                    var splash = page.querySelector('.Splash');
+        splash.classList.add('showSplash');
                     resolve();
                 });
             });
