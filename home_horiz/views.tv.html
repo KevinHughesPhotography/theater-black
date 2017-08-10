@@ -1,3 +1,22 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Gist
+ @chefbennyj1
+ Sign out
+ Watch 9
+  Star 12
+  Fork 89 MediaBrowser/emby-web-defaultskin
+ Code  Issues 0  Pull requests 1  Projects 0  Wiki Insights 
+Branch: gh-pages Find file Copy pathemby-web-defaultskin/home_horiz/views.tv.html
+bb10273  on Apr 6
+@LukePulverenti LukePulverenti begin reworking home screen
+1 contributor
+RawBlameHistory     
+70 lines (54 sloc)  2.42 KB
 <div class="horizontalSection">
     <div class="sectionTitle">&nbsp;</div>
     <div>
@@ -12,12 +31,22 @@
                 </div>
             </div>
         </button>
-          <div class="horizontalSection resumeSection hide">
-             <div class="sectionTitle">${ContinueWatching}</div>
-          <div is="emby-itemscontainer" class="itemsContainer">
+        <div class="horizontalSection resumeSection hide">
+            <div class="sectionTitle">${ContinueWatching}</div>
+                <div is="emby-itemscontainer" class="itemsContainer">
 
-          </div>
-        </div>        
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<div class="horizontalSection nextUpSection hide">
+    <div class="sectionTitle">${NextUp}</div>
+    <div is="emby-itemscontainer" class="itemsContainer">
+
     </div>
 </div>
 
@@ -28,13 +57,7 @@
     </div>
 </div>
 
-<div class="horizontalSection nextUpSection hide">
-    <div class="sectionTitle">${NextUp}</div>
-    <div is="emby-itemscontainer" class="itemsContainer">
-
-    </div>
-</div>
-<div class="horizontalItemsContainer">
+        <div class="horizontalItemsContainer">
             <button type="button" class="card backdropCard allSeriesCard card-static" data-type="allseries">
                 <div class="cardImageContainer cardBox card-focuscontent">
 
@@ -55,7 +78,7 @@
                     </div>
                 </div>
             </button>
-    <button type="button" class="card squareCard tvUpcomingCard card-static" data-type="genres">
+            <button type="button" class="card squareCard tvUpcomingCard card-static" data-type="genres">
                 <div class="cardImageContainer coveredImage cardBox coveredImage-noScale card-focuscontent">
 
                     <i class="cardImageIcon md-icon">&#xE916;</i>
@@ -65,9 +88,4 @@
                     </div>
                 </div>
             </button>
-   </div>  
-    
-    
-    
-         
-       
+        </div>
