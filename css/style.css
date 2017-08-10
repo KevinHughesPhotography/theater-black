@@ -627,7 +627,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808080', end
 
 .backgroundContainer{
 background: rgba(255,255,255,1) !important;
-	&:before {
+}
+	.backgroundContainer:before {
        content: '';
 	position: absolute;
 	top: 0;
@@ -640,5 +641,5 @@ background-image: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 1
 	opacity: .6; 
   }
 
-}
+
 
