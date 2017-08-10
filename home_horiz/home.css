@@ -144,6 +144,10 @@ wideSpotlightCard:before{
       width: 46.5em;
     }
 
+.wideSpotlightCard .cardText{
+background: rgba(0,0,0,0) !important;	
+}
+
     .wideSpotlightCard.card-focusscale:focus > .cardBox {
         transform: scale(1.02, 1.02);
     }
