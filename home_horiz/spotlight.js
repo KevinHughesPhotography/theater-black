@@ -27,8 +27,8 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
         ".wideSpotlight:before {
          content: '';
          z-index: 3;
-         background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 28%, rgba(0,0,0,0) 39%, rgba(0,0,0,0.43) 91%, rgba(0,0,0,0.43) 100%); /* FF3.6-15 */
-         background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 39%,rgba(0,0,0,0.43) 91%,rgba(0,0,0,0.43) 100%); /* Chrome10-25,Safari5.1-6 */
+         background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 28%, rgba(0,0,0,0) 39%, rgba(0,0,0,0.43) 91%, rgba(0,0,0,0.43) 100%); 
+         background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 39%,rgba(0,0,0,0.43) 91%,rgba(0,0,0,0.43) 100%); 
          background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 39%,rgba(0,0,0,0.43) 91%,rgba(0,0,0,0.43) 100%); 
         
          }";
