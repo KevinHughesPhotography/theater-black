@@ -124,7 +124,7 @@ display:none !important;
     width: 100%;
 }
 
-wideSpotlightCard:before{
+.wideSpotlightCard:before{
 
    content: '';
 	
