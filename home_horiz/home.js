@@ -21,7 +21,9 @@ define(['globalize', 'pluginManager', 'connectionManager', 'loading', './../comp
             tabView.loadData();
             self.tabView = tabView;
         });
-        
+         var splash = page.querySelector('.Splash');
+        splash.classList.add('showSplash');
+                    
          
     }
 
@@ -237,8 +239,6 @@ define(['globalize', 'pluginManager', 'connectionManager', 'loading', './../comp
 
                     loadViewHtml(page, id, html, viewName, autoFocusTabContent, self);
                     
-                     var splash = page.querySelector('.Splash');
-        splash.classList.add('showSplash');
                     
                     autoFocusTabContent = false;
                    
