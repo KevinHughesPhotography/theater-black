@@ -236,9 +236,12 @@ define(['globalize', 'pluginManager', 'connectionManager', 'loading', './../comp
                     }
 
                     loadViewHtml(page, id, html, viewName, autoFocusTabContent, self);
-                    autoFocusTabContent = false;
-                    var splash = page.querySelector('.Splash');
+                    
+                     var splash = page.querySelector('.Splash');
         splash.classList.add('showSplash');
+                    
+                    autoFocusTabContent = false;
+                   
                     resolve();
                 });
             });
