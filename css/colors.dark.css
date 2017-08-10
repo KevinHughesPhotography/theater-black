@@ -64,8 +64,8 @@
 
 
 .card:focus>.cardBox-focustransform {
-    -webkit-transform: scale(1.05,1.05) !important;
-    transform: scale(1.05,1.05) !important;
+    -webkit-transform: scale(1.02,1.02) !important;
+    transform: scale(1.02,1.02) !important;
 	 background-color: rgba(255,255,255,0);
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
