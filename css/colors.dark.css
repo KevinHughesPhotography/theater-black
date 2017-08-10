@@ -16,7 +16,6 @@
 
 }
 .scrollLine{
-	position:fixed;
 	height: 3px;
 	border-top: 2px solid rgba(255,255,255,0.7);
 	
@@ -111,6 +110,7 @@
 
 .userViewNames button.selected {
     color: inherit;
+   border-bottom-color: 2px solid #fff;
 }
 
 .albumsCard .cardImageContainer, .recordingsCard .cardImageContainer {
