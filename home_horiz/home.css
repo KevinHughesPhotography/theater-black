@@ -59,6 +59,7 @@
   width:100vh;
   height:100vh;
   background-color:#fff;
+  z-index: 99;
 }
 
 .pusher{
