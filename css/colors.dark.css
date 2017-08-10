@@ -61,7 +61,9 @@
     color: #808080 !important;
 }
  
-
+.cardColumn:focus:not(.card-round) .card-focuscontent{
+	transitions: scale(1.02,1.02) !important;
+}
 .card:focus:not(.card-round) .card-focuscontent {
     border-color: rgba(0,0,0,0);
     background-color: rgba(255,255,255,0);
@@ -71,7 +73,7 @@
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
   transformations-property: none !important;
-	transitions: scale(1.02,1.02) !important;
+	
 }
 
 .card:after:not(.card-round) .card-focuscontent{
