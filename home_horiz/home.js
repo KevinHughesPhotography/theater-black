@@ -4,7 +4,7 @@ define(['globalize', 'pluginManager', 'connectionManager', 'loading', './../comp
     function loadViewHtml(page, parentId, html, viewName, autoFocus, self) {
 
          var splash = page.querySelector('.Splash');
-        splash.classList.add('showSplash');
+         splash.classList.add('showSplash');
        
         
         var homeScrollContent = page.querySelector('.contentScrollSlider');
@@ -23,7 +23,7 @@ define(['globalize', 'pluginManager', 'connectionManager', 'loading', './../comp
             self.tabView = tabView;
         });
         
-         splash.classList.add('showSplash');            
+               
          
     }
 
@@ -238,7 +238,9 @@ define(['globalize', 'pluginManager', 'connectionManager', 'loading', './../comp
                     }
 
                     loadViewHtml(page, id, html, viewName, autoFocusTabContent, self);
-                    
+                     var splash = page.querySelector('.Splash');
+                     splash.classList.add('showSplash');
+       
                     
                     autoFocusTabContent = false;
                    
