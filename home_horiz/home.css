@@ -55,7 +55,7 @@
 }
 
 .showSplash{
-  display:block;
+  display:absolute;
   width:100vh;
   height:100vh;
   background-color:#fff;
