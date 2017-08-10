@@ -21,7 +21,10 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
         newCardImageContainer.className = cardImageContainer.className;
 
         newCardImageContainer.style.backgroundImage = "url('" + imgUrl + "')";
-                   
+                
+        if (!newCardImageContainer.classList.contains(".wideSpotlightCard:before")){
+            newCardImageContainer.classList.add('.wideSpotlightCard:before');
+        }   
         //newCardImageContainer.addClass('.wideSpotlightCard:before');
         
        
