@@ -21,8 +21,9 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
         newCardImageContainer.className = cardImageContainer.className;
 
         newCardImageContainer.style.backgroundImage = "url('" + imgUrl + "')";
+        
         document.styleSheets[0].addRule(
-            '.wideSpotlight::before',
+            '.wideSpotlight:before',
             'background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 28%, rgba(0,0,0,0) 39%, rgba(0,0,0,0.43) 91%, rgba(0,0,0,0.43) 100%); background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 39%,rgba(0,0,0,0.43) 91%,rgba(0,0,0,0.43) 100%); background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 39%,rgba(0,0,0,0.43) 91%,rgba(0,0,0,0.43) 100%);');
         //newCardImageContainer.style.
 
