@@ -98,7 +98,8 @@
 
 }
 .card:focus{
-animation: float 5s infinite;	
+  -webkit-filter: drop-shadow(2px 2px 90px 90px rgba(0,0,0,0.2));
+        filter: drop-shadow(2px 2px 90px 90px rgba(0,0,0,0.2));	
 }
 .card:focus:not(.card-round) .card-focuscontent {
     border-color: rgba(0,0,0,0);
