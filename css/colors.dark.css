@@ -6,8 +6,8 @@
 		transform: translatey(0px);
 	}
 	50% {
-	-webkit-filter: drop-shadow(5px 15px 5px rgba(0,0,0,0.2));
-        filter: drop-shadow(5px 15px 5px rgba(0,0,0,0.2));
+	-webkit-filter: drop-shadow(15px 15px 5px rgba(0,0,0,0.2));
+        filter: drop-shadow(15px 15px 5px rgba(0,0,0,0.2));
 		
 		transform: translatey(-7px);
 	}
