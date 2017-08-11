@@ -92,6 +92,8 @@
     -ms-transition: none;
     -o-transition: none;
     transition: none;
+	animation: float 8s 1s infinite;
+-webkit-animation: float 8s 1s infinite;
 }
 
 .card[data-cardtype='embyconnect'] .cardImageContainer {
