@@ -115,11 +115,7 @@
 
 .userViewButtonText {
 	padding-bottom: 14px;
-        border-bottom: 2px solid transparent;
-}
-
-.userViewButtonText:focus {
-	border-bottom: 2px solid transparent !important;
+        border-bottom: none !important;
 }
 
 .userViewNames{
