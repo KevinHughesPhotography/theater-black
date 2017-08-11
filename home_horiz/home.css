@@ -173,7 +173,7 @@ display:none !important;
 background: rgba(0,0,0,0) !important;
 	left: 8%;
 	padding-bottom:5%;
-	animation: float 3s 2s infinite;
+	animation: float 13s 2s infinite;
 }
 
     .wideSpotlightCard.card-focusscale:focus > .cardBox {
