@@ -43,7 +43,7 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
         
         card.querySelector('.cardText').innerHTML = item.Name;
         card.querySelector('.cardText').style.opacity = "0 !important";
-        card.querySelector('.cardText').style.animationName = "fadein";
+        card.querySelector('.cardText').style.animationName = "float";
         
         //card.classList.add('.wideSpotlightCard:before');
         card.setAttribute('data-id', item.Id);
