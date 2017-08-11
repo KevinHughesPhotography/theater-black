@@ -180,6 +180,7 @@ background: rgba(0,0,0,0) !important;
 
     .wideSpotlightCard.card-focusscale:focus > .cardBox {
         transform: scale(1.02, 1.02);
+	    animation: float 8s 2s infinite;
     }
 .itemProgressBar{
 background: rgba(255,255,255,0.9) !important;	
