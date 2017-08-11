@@ -1,19 +1,19 @@
 
 @keyframes float {
 	0% {
-	   -webkit-filter: drop-shadow(5px 5px 90px 90 rgba(0,0,0,0.2));
-        filter: drop-shadow(5px 5px 90px 90 rgba(0,0,0,0.2));
+	   -webkit-filter: drop-shadow(15px 5px 90px 90 rgba(0,0,0,0.2));
+        filter: drop-shadow(15px 5px 90px 90px rgba(0,0,0,0.2));
 		transform: translatey(0px);
 	}
 	50% {
-	-webkit-filter: drop-shadow(5px 5px 90px 90px rgba(0,0,0,0.2));
-        filter: drop-shadow(5px 5px 90px 90px rgba(0,0,0,0.2));
+	-webkit-filter: drop-shadow(5px 5px 90px 90px rgba(0,0,0,0.1));
+        filter: drop-shadow(5px 5px 90px 90px rgba(0,0,0,0.1));
 		
 		transform: translatey(-5px);
 	}
 	100% {
-	-webkit-filter: drop-shadow(5px 5px 90px 90px rgba(0,0,0,0.2));
-        filter: drop-shadow(5px 5px 90px 90px rgba(0,0,0,0.2));
+	-webkit-filter: drop-shadow(15px 5px 90px 90px rgba(0,0,0,0.2));
+        filter: drop-shadow(15px 5px 90px 90px rgba(0,0,0,0.2));
 		
 		transform: translatey(0px);
 	}
@@ -98,7 +98,7 @@
 
 }
 .card:focus{
-animation: float 2s infinite;	
+animation: float 5s infinite;	
 }
 .card:focus:not(.card-round) .card-focuscontent {
     border-color: rgba(0,0,0,0);
