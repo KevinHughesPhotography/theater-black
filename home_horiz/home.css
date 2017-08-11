@@ -98,6 +98,7 @@
     font-weight: normal;
 }
 
+
 .userViewNames h3 {
     margin-top: 0;
     margin-bottom: 0;
@@ -110,6 +111,11 @@
     margin-top: 0;
     padding-top: 0;
     padding-bottom: .3em;
+}
+
+.userViewNames .btnUserViewHeader:focus {
+   color: white;
+	transform: scale(1,1) !important;
 }
 
 
