@@ -98,8 +98,8 @@
 }
 .card:focus:not(.card-round) .card-focuscontent {
     border-color: rgba(0,0,0,0);
-   	animation: float 8s 1s infinite;
--webkit-animation: float 8s 1s infinite;
+   	animation: float 8s infinite;
+-webkit-animation: float 8s infinite;
 	
 }
 
