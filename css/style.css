@@ -111,6 +111,7 @@ animation: vanishIn 2.5s 0.5s forwards !important;
 }
 
 .cardBox{
+	background-blend-mode: mulitply;
   opacity: 0 !important;
 	animation: fadein 2.5s 0.5s forwards !important;  
 }
