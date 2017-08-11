@@ -1,19 +1,19 @@
 
 @keyframes float {
 	0% {
-	   -webkit-filter: box-shadow(15px 15px 5px rgba(0,0,0,0.2));
-        filter: box-shadow(15px 15px 5px rgba(0,0,0,0.2));
+	   -webkit-filter: drop-shadow(15px 15px 5px rgba(0,0,0,0.2));
+        filter: drop-shadow(15px 15px 5px rgba(0,0,0,0.2));
 		transform: translatey(0px);
 	}
 	50% {
-	-webkit-filter: box-shadow(5px 15px 0px rgba(0,0,0,0.8));
-        filter: box-shadow(5px 15px 0px rgba(0,0,0,0.8));
+	-webkit-filter: drop-shadow(5px 15px 0px rgba(0,0,0,0.8));
+        filter: drop-shadow(5px 15px 0px rgba(0,0,0,0.8));
 		
 		transform: translatey(-7px);
 	}
 	100% {
-	-webkit-filter: box-shadow(15px 15px 5px rgba(0,0,0,0.2));
-        filter: box-shadow(15px 15px 5px rgba(0,0,0,0.2));
+	-webkit-filter: drop-shadow(15px 15px 5px rgba(0,0,0,0.2));
+        filter: drop-shadow(15px 15px 5px rgba(0,0,0,0.2));
 		
 		transform: translatey(0px);
 	}
@@ -93,15 +93,14 @@
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-	-webkit-filter: drop-shadow(5px 15px 0px rgba(0,0,0,0.8));
-        filter: drop-shadow(5px 15px 0px rgba(0,0,0,0.8));
+		animation: float 8s infinite;
+-webkit-animation: float 8s infinite;
     /*transformations-property: none !important;*/
 
 }
 .card:focus:not(.card-round) .card-focuscontent {
     border-color: rgba(0,0,0,0);
-   	animation: float 8s infinite;
--webkit-animation: float 8s infinite;
+   
 	
 }
 
