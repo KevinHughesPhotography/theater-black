@@ -96,6 +96,7 @@
 
 .userViewButtonText {
     font-weight: normal;
+	text-decoration: none !important;
 }
 
 
