@@ -9,7 +9,7 @@
 	-webkit-filter: drop-shadow(-2px -50px 90px -90px rgba(0,0,0,0));
         filter: drop-shadow(-2px -50px 90px -90px rgba(0,0,0,0));
 		
-		transform: translatey(-5px);
+		transform: translatey(-2px);
 	}
 	100% {
 	-webkit-filter: drop-shadow(2px 2px 90px 90px rgba(0,0,0,0.2));
@@ -190,10 +190,4 @@ animation: float 5s infinite;
 padding-bottom:2%;
 }
 .userViewNames button:focus {
-    color: #fff !important;
-	transitions: scale(1,1) !important;
-}
-
-.userViewNames button:focus .userViewButtonText {
-        border-bottom-color: white;
-}
+    color: #fff
