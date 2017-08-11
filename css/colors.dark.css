@@ -130,6 +130,7 @@
 
 .userViewNames button.selected {
     color: inherit;
+	border-color:white !important;
   
 }
 
