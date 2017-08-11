@@ -93,10 +93,12 @@
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-		animation: float 8s infinite;
--webkit-animation: float 8s infinite;
+		
     /*transformations-property: none !important;*/
 
+}
+.card:focus{
+animation: float 8s infinite;	
 }
 .card:focus:not(.card-round) .card-focuscontent {
     border-color: rgba(0,0,0,0);
