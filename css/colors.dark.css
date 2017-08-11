@@ -111,6 +111,7 @@
 
 .userViewNames button {
     color: white;
+    border-radius: 0% !important;
 }
 
 .userViewButtonText {
@@ -126,6 +127,7 @@
 	opacity: 0 !important;
 	animation: fadein 1.5s 2s forwards !important; 
 	z-index:2 !important;
+	border-radius: 0% !important;
 }
 
 .userViewNames button.selected {
