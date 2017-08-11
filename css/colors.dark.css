@@ -94,12 +94,12 @@
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     transformations-property: none !important;
-	animation: float 8s 1s infinite;
--webkit-animation: float 8s 1s infinite;
+
 }
 .card:focus:not(.card-round) .card-focuscontent {
     border-color: rgba(0,0,0,0);
-   
+   	animation: float 8s 1s infinite;
+-webkit-animation: float 8s 1s infinite;
 	
 }
 
