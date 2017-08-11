@@ -1,8 +1,8 @@
 
 @keyframes float {
 	0% {
-	   -webkit-filter: drop-shadow(15px 15px 5px rgba(0,0,0,0.8));
-        filter: drop-shadow(15px 15px 5px rgba(0,0,0,0.8));
+	   -webkit-filter: drop-shadow(15px 15px 5px rgba(0,0,0,0.4));
+        filter: drop-shadow(15px 15px 5px rgba(0,0,0,0.4));
 		transform: translatey(0px);
 	}
 	50% {
@@ -12,8 +12,8 @@
 		transform: translatey(-7px);
 	}
 	100% {
-	-webkit-filter: drop-shadow(15px 15px 5px rgba(0,0,0,0.8));
-        filter: drop-shadow(15px 15px 5px rgba(0,0,0,0.8));
+	-webkit-filter: drop-shadow(15px 15px 5px rgba(0,0,0,0.4));
+        filter: drop-shadow(15px 15px 5px rgba(0,0,0,0.4));
 		
 		transform: translatey(0px);
 	}
