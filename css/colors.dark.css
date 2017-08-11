@@ -80,7 +80,7 @@
 
 }
 .card:focus{
-  animation: float 5s infinite;	
+  animation: float 7s infinite;	
 }
 .card:focus:not(.card-round) .card-focuscontent {
     border-color: rgba(0,0,0,0);
