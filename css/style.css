@@ -629,7 +629,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808080', end
 }
 
 .backgroundContainer{
-background: rgba(80,80,80,1) !important;
+background: rgba(80,80,80,0.3) !important;
 }
 	.backgroundContainer:before {
        content: '';
