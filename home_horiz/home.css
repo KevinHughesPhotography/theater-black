@@ -1,3 +1,26 @@
+@keyframes float {
+	0% {
+	   -webkit-filter: drop-shadow(5px 15px 5px rgba(0,0,0,0.6));
+        filter: drop-shadow(5px 15px 5px rgba(0,0,0,0.6));
+		transform: translatey(0px);
+	}
+	50% {
+	-webkit-filter: drop-shadow(15px 15px 0px rgba(0,0,0,0.2));
+        filter: drop-shadow(15px 15px 0px rgba(0,0,0,0.2));
+		
+		transform: translatey(-20px);
+	}
+	100% {
+	-webkit-filter: drop-shadow(5px 15px 5px rgba(0,0,0,0.6));
+        filter: drop-shadow(5px 15px 5px rgba(0,0,0,0.6));
+		
+		transform: translatey(0px);
+	}
+}
+
+
+
+
 @keyframes vanishIn {
   0% {
     opacity: 0;
