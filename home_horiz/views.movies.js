@@ -157,7 +157,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
 
             var items = result.Items;
             var imgOptions = {
-                maxWidth: 600
+                maxWidth: 1000
             };
 
             if (items.length > 0) {
