@@ -116,6 +116,8 @@
     -ms-transition: none;
     -o-transition: none;
     transition: none;
+	 -webkit-filter: box-shadow(15px 15px 5px rgba(0,0,0,0.2));
+filter: box-shadow(15px 15px 5px rgba(0,0,0,0.2));
 	
 }
 
