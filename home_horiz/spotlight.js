@@ -20,7 +20,7 @@ define(['visibleinviewport', 'itemShortcuts', 'browser'], function (visibleinvie
         var newCardImageContainer = document.createElement('div');
         newCardImageContainer.className = cardImageContainer.className;
 
-        newCardImageContainer.style.backgroundImage = "linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 28%,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.5) 81%,rgba(0,0,0,0.8) 100%), url('" + imgUrl + "')";
+        newCardImageContainer.style.backgroundImage = "linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 28%,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.5) 75%,rgba(0,0,0,0.8) 100%), url('" + imgUrl + "')";
                 
        //if (!newCardImageContainer.classList.contains(".wideSpotlightCard:before")){
            //newCardImageContainer.classList.add('.wideSpotlightCard:before');
