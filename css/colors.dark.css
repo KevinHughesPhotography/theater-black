@@ -56,7 +56,7 @@
 }
 
 .headerLogo {
-    /*background-image: url(images/logowhite.png);*/
+    display:none !important;/*background-image: url(images/logowhite.png);*/
 }
 
 .emby-button:focus:not(.btnUserViewHeader):not(.emby-tab-button) {
@@ -170,7 +170,8 @@
 }
 
 .userViewNames button{
-padding-bottom:2.1%;
+padding-bottom:2.4%;
 }
 .userViewNames button:focus {
     color: white;
+}
