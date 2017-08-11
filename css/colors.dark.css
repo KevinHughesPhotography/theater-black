@@ -2,12 +2,12 @@
 @keyframes float {
 	0% {
 	   -webkit-filter: drop-shadow(15px 15px 10px 0 rgba(0,0,0,0.2));
-        filter: drop-shadow(15px 15px 10px 0 rgba(0,0,0,0.2));
+        filter: drop-shadow(15px 15px 90px 0 rgba(0,0,0,0.2));
 		transform: translatey(0px);
 	}
 	50% {
-	-webkit-filter: drop-shadow(15px 15px 10px 0 rgba(0,0,0,0.2));
-        filter: drop-shadow(15px 15px 10px 0 rgba(0,0,0,0.2));
+	-webkit-filter: drop-shadow(15px 15px 90px 10px rgba(0,0,0,0.2));
+        filter: drop-shadow(15px 15px 90px 10px rgba(0,0,0,0.2));
 		
 		transform: translatey(-5px);
 	}
