@@ -93,6 +93,8 @@
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+	-webkit-filter: box-shadow(5px 15px 0px rgba(0,0,0,0.8));
+        filter: box-shadow(5px 15px 0px rgba(0,0,0,0.8));
     /*transformations-property: none !important;*/
 
 }
@@ -116,8 +118,7 @@
     -ms-transition: none;
     -o-transition: none;
     transition: none;
-	 -webkit-filter: box-shadow(15px 15px 5px rgba(0,0,0,0.2));
-filter: box-shadow(15px 15px 5px rgba(0,0,0,0.2));
+	
 	
 }
 
