@@ -118,6 +118,7 @@
    color: white !important;
 	transform: scale(1,1) !important;
 	border-bottom: 2px solid white !important;
+	border-radius: none !important;
 }
 
 
