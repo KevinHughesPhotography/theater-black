@@ -56,7 +56,7 @@ define(['globalize', './spotlight', 'imageLoader', 'focusManager', 'pluginManage
 
         var options = {
 
-            SortBy: "Random",
+            SortBy: "IsFavoriteOrLiked,Random",
             IncludeItemTypes: "Movie",
             Limit: 20,
             Recursive: true,
