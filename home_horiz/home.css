@@ -114,7 +114,7 @@
 }
 
 .userViewNames .btnUserViewHeader:focus {
-   color: white;
+   color: white !important;
 	transform: scale(1,1) !important;
 }
 
